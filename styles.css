@@ -1,0 +1,58 @@
+body {
+    background-color: rgba(76, 215, 227, 0.98);
+}
+h1 {
+    font-family: "Comic Sans MS";
+    font-size: 72pt;
+    position: absolute;
+    color: white;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.line {
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+}
+.top {
+    top:5%;
+}
+
+.bot {
+    bottom: 5%;
+}
+
+.light {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: relative;
+}
+
+.first {
+    left: 5%;
+    background-color: red;
+}
+
+.red {
+    left: 300%;
+    background-color: red;
+}
+
+.yellow {
+    left: 300%;
+    background-color: yellow;
+}
+
+.green {
+    left: 300%;
+    background-color: #56e856;
+}
+
+.blue {
+    left: 300%;
+    background-color: blue;
+}
